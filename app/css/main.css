@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'fontello';
+  src: url("fonts/fontello.eot?19851056");
+  src: url("fonts/fontello.eot?19851056#iefix") format("embedded-opentype"), url("fonts/fontello.woff?19851056") format("woff"), url("fonts/fontello.ttf?19851056") format("truetype"), url("fonts/fontello.svg?19851056#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font: 16px 'Open Sans', Arial, sans-serif; }
+
+.float-r {
+  float: right; }
+
+.float-l {
+  float: left; }
+
+.clearfix:after {
+  content: ' ';
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both; }
+
+.over-hidden {
+  overflow: hidden; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+.moving {
+  transition: all 5s; }
+  .moving:hover {
+    margin-top: 300px; }
+
+.test-block {
+  margin-top: 50px;
+  overflow-y: scroll;
+  height: 200px;
+  width: 400px;
+  padding: 1em;
+  border: 15px yellow solid; }
